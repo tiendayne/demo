@@ -12,7 +12,7 @@ public class Bullet : MonoBehaviour
 
     void Update()
     {
-        // Di chuyển đạn lên phía trên
+       
         transform.Translate(Vector3.up * flySpeed * Time.deltaTime);
     }
 
