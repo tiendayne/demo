@@ -8,6 +8,5 @@ public class PlayerHealth : Health
     {
         base.Die(); // Chạy lệnh nổ ở lớp cha
         Debug.Log("Player died");
-        // Thêm logic Game Over ở đây nếu cần
     }
 }
