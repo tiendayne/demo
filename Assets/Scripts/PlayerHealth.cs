@@ -6,7 +6,7 @@ public class PlayerHealth : Health
 {
     protected override void Die()
     {
-        base.Die(); // Chạy lệnh nổ ở lớp cha
+        base.Die(); 
         Debug.Log("Player died");
     }
 }
